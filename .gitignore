@@ -63,3 +63,4 @@ test_api.py
 
 # Fichiers de sortie
 outputs/*
+test_api.py
