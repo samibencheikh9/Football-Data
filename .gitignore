@@ -62,6 +62,8 @@ settings.py
 test_api.py
 
 # Fichiers de sortie
-outputs/*
+outputs/*.csv
+outputs/*.json
+outputs/*.xlsx
 test_api.py
 test.py
