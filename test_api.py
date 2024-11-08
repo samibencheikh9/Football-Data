@@ -21,5 +21,3 @@ print(response.url)
 
 #afficher le code de statut de la requête
 print(response.status_code)
-
-data.get('competitions', [])    
