@@ -57,3 +57,5 @@ config.yaml
 secrets.yaml
 settings.py
 .env
+
+test_api.py
