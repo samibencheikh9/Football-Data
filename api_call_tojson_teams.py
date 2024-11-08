@@ -91,6 +91,4 @@ with open('outputs/all_players.json', 'w', encoding='utf-16') as file:
 teams_df.to_csv('outputs/all_teams.csv', index=False, encoding='utf-16', sep=';')
 players_df.to_csv('outputs/all_players.csv', index=False, encoding='utf-16', sep=';')
 
-# Enregistrer les données dans un fichier XLSX encodé en UTF-16
-teams_df.to_excel('outputs/all_teams.xlsx', index=False, sheet_name='Teams')
-players_df.to_excel('outputs/all_players.xlsx', index=False, sheet_name='Players')
+print("Données enregistrées avec succès!")
