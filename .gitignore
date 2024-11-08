@@ -58,10 +58,8 @@ secrets.yaml
 settings.py
 .env
 
+# Fichier de test
 test_api.py
-outputs/
 
-
-
-
-
+# Fichiers de sortie
+outputs/*
