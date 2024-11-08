@@ -1,0 +1,59 @@
+# Fichiers de configuration pour environnements virtuels
+venv/
+env/
+.venv/
+ENV/
+.ENV/
+
+# Fichiers de configuration de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Fichiers de cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de log et de rapports
+*.log
+*.out
+*.err
+
+# Répertoires de tests temporaires
+.tox/
+.nox/
+
+# Caches d'environnement virtuel
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Caches de package managers
+node_modules/
+.venv/
+*.lock
+
+# Dossiers d'intégration continue (CI)
+.coverage
+coverage/
+htmlcov/
+
+# Configuration IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.swm
+
+# Fichiers de configuration système
+.DS_Store
+.Dstore
+Thumbs.db
+
+# Fichiers de configuration spécifiques
+config.yaml
+secrets.yaml
+settings.py
+.env
