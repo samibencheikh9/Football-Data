@@ -90,3 +90,7 @@ with open('outputs/all_players.json', 'w', encoding='utf-16') as file:
 # Enregistrer les données dans un fichier CSV
 teams_df.to_csv('outputs/all_teams.csv', index=False, encoding='utf-16', sep=';')
 players_df.to_csv('outputs/all_players.csv', index=False, encoding='utf-16', sep=';')
+
+# Enregistrer les données dans un fichier XLSX
+teams_df.to_excel('outputs/all_teams.xlsx', index=False, encoding='utf-16')
+players_df.to_excel('outputs/all_players.xlsx', index=False, encoding='utf-16')
