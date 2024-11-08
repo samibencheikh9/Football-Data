@@ -63,7 +63,7 @@ df = pd.DataFrame(all_matches)
 print(df)
 
 # Enregistrer les données dans un fichier JSON
-with open('all_matches.json', 'w', encoding='utf-8') as file:
+with open('all_matches.json', 'w', encoding='utf-') as file:
     json.dump(all_matches, file, indent=4)
 
 # Enregistrer les données dans un fichier CSV
