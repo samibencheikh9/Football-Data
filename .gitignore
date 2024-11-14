@@ -67,3 +67,4 @@ outputs/*.json
 outputs/*.xlsx
 test_api.py
 test.py
+api_call_teams_players.ipynb
